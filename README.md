@@ -1,81 +1,46 @@
-# Kata FBI Most Wanted (FMW)
+# Getting Started with Create React App
 
-> **À propos**
->
-> ⓘ Ceci est la donnée d'un [kata], un _exercice de programmation_ qui se
-> déroule généralement dans le cadre d'un [coding dojo]. Il est proposé aux
-> membres du dojo de l'[EPFL] et fait partie d'une collection de différents
-> katas identifiés par le tag [epfl-dojo-kata] sur GitHub. Vous êtes plus que
-> bienvenu d'essayer de le réaliser dans le langage de programmation de votre
-> choix. Pour cela, un bon point de départ pour cela est de [forker] ce
-> repository. Le «[stargazer]» en lui ajoutant une **☆** nous fait également
-> très plaisir. Finalement, n'hésitez pas à l'améliorer en faisant des
-> [pull requests]. Bonne lecture !
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[kata]: https://fr.wikipedia.org/wiki/Coding_dojo#Kata
-[coding dojo]: https://fr.wikipedia.org/wiki/Coding_dojo
-[EPFL]: https://www,epfl.ch
-[epfl-dojo-kata]: https://github.com/topics/epfl-dojo-kata
-[forker]: https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository
-[stargazer]: https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars
-[pull requests]: https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#creating-the-pull-request
+## Available Scripts
 
+In the project directory, you can run:
 
-## But
+### `yarn start`
 
-Le but de ce kata est d'exercer vos connaissances web en créant un quiz 
-interactif sur les criminels les plus recherchés par le [FBI].
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Ce kata est une suite logique au [Kata-APOD] et fait partie de la collection de
-[kata du dojo de l'EPFL].
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
+### `yarn test`
 
-## À disposition
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Le [FBI] tient à jour une page listant les 10 criminels les plus recherchés 
-(<https://www.fbi.gov/wanted/topten>) dont les informations sont également 
-disponibles via une API (à vrai dire un fichier JSON), disponible sur 
-<https://www.fbi.gov/wanted/api>.
+### `yarn build`
 
-![image](https://user-images.githubusercontent.com/176002/133274225-815ce4f3-d9ea-4c4e-ac10-c112a09caa83.png)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Réalisation
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-En récupérant les données du JSON, le quiz doit être crée dynamiquement à partir
-des données.
+### `yarn eject`
 
-Le quiz doit être composé de 5 questions distinctes. Chaque question affiche la
-photo (aka mugshot) du criminel et 3 options de réponse : deux noms de criminels
-erronés et le nom correct, celui correspondant à la photo (réponse correcte).
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-En plus de la photo, vous êtes invité à afficher d'autres informations qui
-seraient mises à disposition depuis l'API.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Lorsque toutes questions ont été répondues, l'utilisateur est noté (score)
-et peut visualiser ses réponses afin de savoir pour lesquelles il a répondu
-correctement et savoir quelle était la réponse correcte pour celles où il s'est
-trompé.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Il n'y a pas de consigne sur la façon dont sont présentées les questions ; il
-est par exemple possible de toutes les afficher sur une même page, ou de créer
-un système permettant de voir une question après l'autre, c'est au choix de la
-personne réalisant le kata.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Lorsque votre travail est terminé, vous êtes invité à le rendre disponible
-sur une [page GitHub](https://pages.github.com/) et à proposer une [pull
-request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
-sur à dépôt afin de compléter le paragraphe "[Je l'ai fait 💪](#je-lai-fait-)"
-ci-dessous, afin que d'autres personnes puissent apprécier votre effort.
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Je l'ai fait 💪
-
-* [@octocat](https://github.com/octocat): [code](https://#) / [app](https://#)  
-  Une petite présentation de votre version, par exemple quelles technologies
-  vous avez utilisées, qu'est-ce que votre version a spécial, etc...
-
-
-[FBI]: https://www.fbi.gov
-[Kata-APOD]: https://github.com/epfl-dojo/Kata-APOD
-[kata du dojo de l'EPFL]: https://github.com/topics/epfl-dojo-kata
+To learn React, check out the [React documentation](https://reactjs.org/).
