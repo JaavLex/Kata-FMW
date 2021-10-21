@@ -6,7 +6,24 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
 	<React.StrictMode>
-		<App />
+		<div className="context">
+			<App />
+		</div>
+
+		<div className="area">
+			<ul className="circles">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
 	</React.StrictMode>,
 	document.getElementById('root')
 );
