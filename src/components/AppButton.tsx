@@ -12,7 +12,8 @@ export default function AppButton({ buttonText, onClick }: AppButtonProps) {
 		<div>
 			<button
 				className="text-white rounded-full h-80 w-80 bg-indigo-300 flex 
-                  flex-col justify-center items-center content-around hover:shadow-2xl"
+                  flex-col justify-center items-center content-around transition 
+                  duration-200 hover:shadow-2xl"
 				onClick={onClick}
 			>
 				{buttonText === 'play' ? (
