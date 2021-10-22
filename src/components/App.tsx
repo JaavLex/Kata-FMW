@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import AppButton from './AppButton';
 import AppTitle from './AppTitle';
-import QuizzBlock from './quizzBlock';
+import TestComponents from './testComponents';
 
 function App() {
 	const [isPlaying, setIsPlaying] = useState(false);
@@ -20,7 +20,7 @@ function App() {
 							onClick={() => setIsPlaying(true)}
 						/>
 					) : (
-						<QuizzBlock starting={true}></QuizzBlock>
+						<TestComponents />
 					)}
 				</div>
 			</div>
