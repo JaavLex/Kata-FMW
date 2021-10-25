@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import ApiBlock from './apiBlock';
 import AppButton from './AppButton';
 import AppTitle from './AppTitle';
-import TestComponents from './testComponents';
 
 function App() {
 	const [isPlaying, setIsPlaying] = useState(false);
+
 	return (
 		<div>
 			<AppTitle
@@ -20,7 +21,7 @@ function App() {
 							onClick={() => setIsPlaying(true)}
 						/>
 					) : (
-						<TestComponents />
+						<ApiBlock />
 					)}
 				</div>
 			</div>
